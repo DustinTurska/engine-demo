@@ -1,6 +1,7 @@
 import { ConnectButton } from "thirdweb/react";
 import thirdwebIcon from "./thirdweb.svg";
 import { client } from "./client";
+import ClaimTo from "./ClaimTo";
 
 export function App() {
 	return (
@@ -17,6 +18,7 @@ export function App() {
 						}}
 					/>
 				</div>
+				<ClaimTo />
 
 				<ThirdwebResources />
 			</div>
